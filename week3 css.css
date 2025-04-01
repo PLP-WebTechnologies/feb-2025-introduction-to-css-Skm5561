@@ -1,0 +1,51 @@
+/* Apply a global font family */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style the header */
+#main-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+/* Style for the content section using a class */
+.content-section {
+    padding: 20px;
+    margin: 0 20px;
+    background-color: hsl(320, 89%, 58%);
+    border: 1px solid #bd9494;
+}
+
+/* Style the paragraph with a specific class */
+.description {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the image with a class */
+.styled-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    border: 3px solid red;
+    border-radius: 8px;
+}
+
+/* Style the footer with a class */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
